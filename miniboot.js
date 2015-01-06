@@ -53,6 +53,7 @@ console.clear();
 	}
 
 	report=function(o){
+	 groupCollapsed('window');log('(w)%O',w);groupEnd();
 	 logs(
 		['document (d)',d],
 		['root›html (dr)',dr],
